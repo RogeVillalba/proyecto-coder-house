@@ -1,14 +1,19 @@
 
-header{
-
-    background-color: black;
-    background-image: radial-gradient(to right, black , white);
+.header{
+    background-image: linear-gradient(to right, black, yellow);
 }
 .navIndex{
     display: flex;
+    margin: auto;
 }
 .titulo{
-    
+    display: inline-block;
     font-size: 40px;
     color: white;
+    padding-left: 500px;
+    transition: 2s;
+
+}
+.titulo:hover{
+    transform: scale(2);
 }
