@@ -1,0 +1,14 @@
+
+header{
+
+    background-color: black;
+    background-image: radial-gradient(to right, black , white);
+}
+.navIndex{
+    display: flex;
+}
+.titulo{
+    
+    font-size: 40px;
+    color: white;
+}
