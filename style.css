@@ -1,0 +1,775 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 228, 218);
+}
+/* HEADER */
+
+
+.header{
+    background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
+    height: 100px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+.header__titulo{  
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 70px;
+    transition: transform .5s;
+}
+.header__titulo:hover{
+    transform: scale(1.1);
+}
+.anchor{
+    text-decoration: none;
+}
+
+.header__nav__list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.header__list__item a{
+        color: black;   
+}  
+.header__list__item{
+    transition: transform .3s;
+}
+.header__list__item:hover{
+        transform: scale(1.5);
+}
+    
+.header__list__link{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.main__logo__h{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
+}
+.main__logo__m{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
+
+}
+
+/*NAV*/
+
+#navbarNavDropdown{
+    background-image: linear-gradient(to right, rgb(201, 192, 192), rgb(138, 138, 162), rgb(201, 192, 192) );
+}
+.nav__submenu li:hover{
+    transform: scale(1.3);
+}
+.nav__submenu li{
+    list-style: none;
+    padding: 12px;
+    
+}
+
+.nav__submenu{
+    display: none;
+    background-color: cornflowerblue;
+   margin-top: 8px;
+    
+}
+.nav__menu--submenu a{
+    color: black;
+    text-decoration: none;
+}
+.submenu{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.submenu:hover .nav__submenu  {
+    display: block;
+}
+.submenu:hover{
+    transform: scale(1.2);
+}
+
+/*MAIN*/
+.main__{
+    background-color: rgb(231, 225, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1500px;
+    padding-top: 0px;
+    
+}
+
+
+.section1{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.img__section__1 img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    transition: transform .8s;
+}
+.img__section__1 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.img2__section__1 img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    transition: transform .8s;
+}
+
+.img2__section__1 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.text__section_1{
+    margin: 0;
+    text-align: center ;
+    }
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin-right: 10px;
+    justify-content: space-around;
+
+    
+}    
+
+.vid__section__2 p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/*FOOTER*/
+
+
+.footerPag{
+    background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
+    height: 75px;
+    font-family: 'Grape Nuts', cursive;
+   
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+
+.footer__list li {
+    transition: transform .5s;
+}
+
+.footer__list li:hover{
+    transform: scale(1.3,1.3);
+}
+                                            /*HOMBRES*/
+
+/*HEADER HOMBRES*/
+.header__hombres{
+    background-image: linear-gradient(to right, rgb(80, 127, 213), rgb(158, 158, 158), rgb(33, 72, 145) );
+    height: 100px;
+    flex-wrap: wrap;
+}
+.header__titulo__hombres{
+    font-size: 80px;
+    font-family: 'Grape Nuts', cursive;   
+    color: black;
+    flex-wrap: wrap;
+    transition: transform .5s;
+}
+
+.header__titulo__hombres:hover{
+    transform: scale(1.1);
+}
+/*MAIN HOMBRES*/
+
+.logos__hombres{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.main__logo__hombres{
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+
+}
+.main__h{
+    background-color: rgb(226, 220, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.buzos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   transition: transform 1s;
+}
+.buzos:hover{
+    transform: scale(1.1,1.1);
+}
+.buzos__hombres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+}
+.p__buzos__hombres{
+    font-size: 25px;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    
+}
+
+.buzos__img{
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    border-radius: 8px;
+    object-fit: con;
+}
+.boton__h{
+    width: fit-content;
+    height: 35px;
+    border: solid 1px;
+    padding: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(80, 127, 213), rgb(158, 158, 158), rgb(33, 72, 145) );
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 0px 10px black;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.boton__h:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+.remeras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+    
+}
+
+.remeras:hover{
+    transform: scale(1.1,1.1);
+}
+.remeras__hombres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.p__remeras__hombres{
+    font-size: 25px;    
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+}
+.remeras__img{
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.bermudas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+
+.bermudas:hover{
+    transform: scale(1.1,1.1);
+}
+.bermudas__hombres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.p__bermudas__hombres{
+    padding-top: 0px;
+    font-size: 25px;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    
+}
+
+.bermudas__img{
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/*FOOTER HOMBRES*/
+.footerPag__h{
+    background-image: linear-gradient(to right, rgb(80, 127, 213), rgb(158, 158, 158), rgb(33, 72, 145) );
+    height: 75px;
+    font-family: 'Grape Nuts', cursive;
+    
+}
+
+/*HEADER MUJER*/
+.header__mujer{
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
+    height: 100px;
+    
+}
+
+.header__titulo__mujer{
+    font-size: 80px;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    color: black;
+    flex-wrap: wrap;
+    transition: transform .5s;
+}
+
+.header__titulo__mujer:hover{
+    transform: scale(1.1);
+}
+/*NAV*/
+
+.nav__submenu__mujer li{
+    list-style: none;
+    padding: 12px;
+    
+}
+
+.nav__submenu__mujer{
+    display: none;
+    background-color: rgb(228, 189, 223);
+    
+}
+.nav__menu__mujer--submenu a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.nav__menu__mujer--submenu:hover .nav__submenu__mujer  {
+    display: block;
+}
+
+/*MAIN MUJER*/
+.logos__mujer{
+    display: flex;
+    justify-content: space-around;
+}
+.main__logo__mujer{
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.buzos__m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.buzos__mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 0px;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+}
+.p__buzos__mujer{
+    font-size: 25px;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    
+}
+
+.remeras__m{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.remeras__mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.p__remeras__mujer{
+    font-size: 25px;    
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+}
+
+.bermudas__m{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bermudas__mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.p__bermudas__mujer{
+    padding-top: 0px;
+    font-size: 25px;
+    font-family: 'Grape Nuts', cursive;
+    text-align: center;
+    
+}
+
+.boton__m{
+    font-family:Arial, Helvetica, sans-serif;
+    width: fit-content;
+    height: 35px;
+    border: solid 1px;
+    padding: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 0px 10px black;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    transition: transform .5s;
+}
+
+.boton__m:hover{
+    transform: scale(1.1,1.1);
+}
+/*FOOTER MUJER*/
+
+.footerPag__m{
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
+    height: 75px;
+    font-family: 'Grape Nuts', cursive;
+   
+}
+
+                                    /*responsive*/
+@media only screen and (max-width: 768px) {
+.header{
+        background-color: cornflowerblue;
+        height: 65px;
+        flex-wrap: wrap;
+        top: 0;
+}
+.header__titulo{  
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Grape Nuts', cursive;
+  
+}    
+
+
+.img__section__1 img{
+    height: 150px;
+    width: 150px;
+    border: solid 1px black;
+}
+
+.img2__section__1 img{
+    height: 150px;
+    width: 150px;
+    border: solid 1px black;
+
+}
+
+.vid__section__2{
+    display: none;
+}
+
+.location iframe{
+    height: 250px;
+    width: 250px;
+    padding-left: 50px;    
+}
+.location p{
+    text-align: center;
+    padding-bottom: 2px;
+    
+}
+/*header hombres*/
+
+.header__hombres{
+        height: 60px;
+        position: sticky;
+        background-color: cornflowerblue;
+
+    }
+.header__list__link{
+        font-size: 15px;
+    }
+.header__titulo__hombres{
+            font-size: 30px;
+            font-family: 'Grape Nuts', cursive;
+            text-align: center;
+            color: black;
+            flex-wrap: wrap;
+        }
+
+    /*Main hombres*/
+
+.logos__hombres{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+
+}
+
+.main__logo__hombres{
+    height: 100px;
+    width: 100px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.buzos__hombres{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+}
+.p__buzos__hombres{
+        font-size: 20px;
+        font-family: 'Grape Nuts', cursive;
+        text-align: center;
+        
+
+}
+
+.buzos__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+}
+
+.p__remeras__hombres{
+        font-size: 20px;    
+        font-family: 'Grape Nuts', cursive;
+        text-align: center;
+}
+
+.remeras__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+        
+}
+
+.remeras__hombres{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.bermudas__hombres{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+}
+
+.p__bermudas__hombres{
+            font-size: 20px;    
+            font-family: 'Grape Nuts', cursive;
+            text-align: center;
+        }
+
+
+.bermudas__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+}
+/*footer hombres*/
+
+.footerPag__h{
+    background-color: cornflowerblue;
+    height: 70px;
+    bottom: 0;
+    font-family: 'Grape Nuts', cursive;
+    border: solid 1px;
+}
+
+
+
+
+/*Header mujer*/
+
+.header__mujer{
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+.header__list__link{
+    font-size: 15px;
+}
+.header__titulo__mujer{
+        font-size: 30px;
+       
+    }
+
+    /*Main mujer*/
+.logos__mujer{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+.main__logo__mujer{
+        height: 100px;
+        width: 100px;
+        flex-wrap: wrap;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+.buzos__mujer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+    }
+.p__buzos__mujer{
+        font-size: 20px;
+        font-family: 'Grape Nuts', cursive;
+        text-align: center;
+        
+
+    }
+.buzos__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+    }
+
+.p__remeras__mujer{
+        font-size: 20px;    
+        font-family: 'Grape Nuts', cursive;
+        text-align: center;
+    }
+.remeras__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+       
+    }
+
+.remeras__mujer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+
+    }
+    .bermudas__mujer{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    .p__bermudas__mujer{
+            font-size: 20px;    
+            font-family: 'Grape Nuts', cursive;
+            text-align: center;
+        }
+    
+    .bermudas__img{
+        height: 150px;
+        width: 150px;
+        border: solid 1px;
+        object-fit: cover;
+    }
+    /*Main mujer*/
+    /*Footer mujer*/
+    .footerPag__m{
+        background-color: rgb(228, 189, 223);
+        height: 70px;
+        bottom: 0;
+        font-family: 'Grape Nuts', cursive;
+        border: solid 1px;
+    }
+}
