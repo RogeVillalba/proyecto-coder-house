@@ -179,6 +179,7 @@ body{
     background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
     height: 75px;
     font-family: 'Grape Nuts', cursive;
+    
    
 }
 
@@ -492,7 +493,7 @@ body{
     border: solid 1px;
     padding: 7px;
     border-radius: 5px;
-    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(158, 82, 202) );
     color: rgb(0, 0, 0);
     box-shadow: 5px 0px 10px black;
     margin-top: 10px;
@@ -512,6 +513,49 @@ body{
    
 }
 
+/*EMPRESA*/
+.main__empresa{
+    height: 600px;
+}
+
+.card img{
+    height: 200px;
+ 
+}
+.row{
+   display: flex;
+  justify-content: space-around;
+   margin: 0;
+   padding: 0;
+}
+
+/*CONTACTO*/
+.main__contact{
+    padding-top: 50px;
+    height: 555px;
+}
+.input{
+
+    height: 100px;
+}
+.form-label{
+    padding-bottom: 30px;
+    padding-left: 700px;
+}
+.form-control{
+    margin: auto;
+    width: 300px;
+}
+.form-control-date{
+    margin-top:  150px;
+}
+.form-check{
+    padding-bottom: 130px;
+}
+
+.form_button{
+    margin-bottom: 100px;
+}
                                     /*responsive*/
 @media only screen and (max-width: 768px) {
 .header{
@@ -771,5 +815,19 @@ body{
         bottom: 0;
         font-family: 'Grape Nuts', cursive;
         border: solid 1px;
+    }
+
+    .main__contact{
+        height: 650px;
+    }
+
+    .form-label{
+        padding-bottom: 40px;
+        padding-left: 100px;
+        
+    }
+
+    .form-control-date{
+        margin-top:  200px;
     }
 }
