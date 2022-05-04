@@ -90,7 +90,7 @@ body{
 .nav__submenu{
     display: none;
     background-color: cornflowerblue;
-   margin-top: 8px;
+    margin-top: 8px;
     
 }
 .nav__menu--submenu a{
@@ -513,14 +513,25 @@ body{
    
 }
 
-/*EMPRESA*/
+/*QUIENES SOMOS*/
 .main__empresa{
     height: 600px;
+    background-image: linear-gradient(to right,rgb(145, 145, 145),rgb(131, 166, 231), rgb(210, 210, 210), rgb(197, 120, 241), rgb(145, 144, 144));
 }
-
+.titulo__qs{
+    padding-top: 80px;     
+    font-family: 'ZCOOL KuaiLe', cursive;
+   
+   
+}
 .card img{
     height: 200px;
  
+}
+
+.card-text{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 15px;
 }
 .row{
    display: flex;
