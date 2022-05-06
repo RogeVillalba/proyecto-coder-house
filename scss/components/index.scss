@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
+    flex-wrap: $header-wrap;
+}
+.header__titulo{
+    font-family: $font-titulo;
+    font-size: $font-size;
+    text-align: center;
+    color: $title-black;
+    
+}
+.anchor{
+    text-decoration: $td-anchor-none;
+}
+
+.main__{
+    background-color: $color-main;
+    display: $display-flex ;
+    flex-direction: $main-fd;
+    justify-content: $main-jc;
+    
+}
+.logos{
+    display: $display-flex;
+    justify-content: $logos-jc;
+    padding-top: $main-logos-pt;
+    flex-wrap: $flex-wrap;
+}
+.main__logo__h{
+    height: $main-logos-height;
+    width: $main-logos-width;    
+    padding-bottom: $main-logos-pb;
+    border-radius: $width-img-section
+}
+
+.main__logo__m{
+    height: $main-logos-height;
+    width: $main-logos-width;   
+    padding-bottom: $main-logos-pb;
+    border-radius: $width-img-section
+}
+
+.section1{
+    display: $display-flex;
+    padding-top: $section1-pd;
+    justify-content: $section1-jc;
+}
+.img__section__1 img{
+    height: $heigh-img-section;
+    width: $width-img-section;
+    border-radius: $b-radius-img;
+    transition: $transition-img;
+}
+.img__section__1 img:hover{
+    transform: $hover-img;
+}
+.img2__section__1 img{
+    height: $heigh-img-section;
+    width: $width-img-section;
+    border-radius: $b-radius-img;
+    transition:  $transition-img;
+}
+
+.img2__section__1 img:hover{
+    transform: $hover-img;
+}
+.text__section_1{
+    text-align: $text-section-1;
+}
+.section2{
+    display: $display-flex;
+    flex-direction: $flex-dir-r;
+    padding-top: $pt-section2;
+    margin-right: $mr-section2;  
+    justify-content: $jc-section2;
+  
+}    
+.vid__section__2 p{
+    font-size: $fs-p-video-section2;  
+}
+
+/*FOOTER*/
+.footerPag{
+    background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
+    height: $footer-heigh;
+    font-family: $font-f;
+   
+}
+.footer__list{
+    display: $display-flex;
+    justify-content: $footer-list-jc;
+    list-style: $footer-list-style;
+}
+.footer__list li {
+    transition: $footer-list-transition;
+}
+
+.footer__list li:hover{
+    transform: $footer-list-hover;
+}
+
+

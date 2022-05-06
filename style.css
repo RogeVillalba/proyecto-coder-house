@@ -55,23 +55,7 @@ body{
     flex-wrap: wrap;
 }
 
-.logos{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    flex-wrap: wrap;
-}
-.main__logo__h{
-    height: 300px;
-    width: 300px;
-    padding-bottom: 50px;
-}
-.main__logo__m{
-    height: 300px;
-    width: 300px;
-    padding-bottom: 50px;
 
-}
 
 /*NAV*/
 
@@ -121,7 +105,23 @@ body{
     
 }
 
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.main__logo__h{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
+}
+.main__logo__m{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
 
+}
 .section1{
     display: flex;
     padding-top: 50px;
@@ -518,7 +518,7 @@ body{
     height: 600px;
     background-image: linear-gradient(to right,rgb(145, 145, 145),rgb(131, 166, 231), rgb(210, 210, 210), rgb(197, 120, 241), rgb(145, 144, 144));
 }
-.titulo__qs{
+.h1__qs{
     padding-top: 80px;     
     font-family: 'ZCOOL KuaiLe', cursive;
    

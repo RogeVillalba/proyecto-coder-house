@@ -1,0 +1,43 @@
+
+
+/*INDEX HEADER*/
+$color-header:  rgb(74, 74, 182) ;
+$color-main: rgb(231, 225, 217);
+$header-wrap: wrap;
+$font-titulo: 'Grape Nuts', cursive;
+$font-size: 70px;
+$td-anchor-none: none;
+$title-black: black;
+
+/*MAIN*/
+$display-flex: flex;
+$main-fd: column;
+$main-jc: space-evenly;
+/*logos*/
+$main-logos-height: 300px;
+$main-logos-width: 300px;
+$main-logos-pt: 100px;
+$main-logos-pb: 50px;
+$display-flex: flex;
+$logos-jc: space-evenly;
+$flex-wrap: wrap;
+$section1-pd: 50px;
+$section1-jc: space-evenly;
+$heigh-img-section: 400px;
+$width-img-section: 400px;
+$b-radius-img: 20px;
+$transition-img: transform .8s;
+$hover-img: scale(1.1,1.1);
+$text-section-1: center;
+$flex-dir-r: row;
+$pt-section2: 80px;
+$mr-section2: 10px;
+$jc-section2: space-evenly;
+$fs-p-video-section2: 17px;
+/*FOOTER*/
+$footer-heigh: 75px;
+$font-f: 'Grape Nuts', cursive;
+$footer-list-jc: space-evenly;
+$footer-list-style: none;
+$footer-list-transition: transform .5s;
+$footer-list-hover: scale(1.3,1.3);

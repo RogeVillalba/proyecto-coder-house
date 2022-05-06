@@ -1,0 +1,97 @@
+/*INDEX HEADER*/
+/*MAIN*/
+/*logos*/
+/*FOOTER*/
+* {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  background-image: linear-gradient(to right, #214891, #6f94d8, #6c0aa5);
+  flex-wrap: wrap; }
+
+.header__titulo {
+  font-family: "Grape Nuts", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: black; }
+
+.anchor {
+  text-decoration: none; }
+
+.main__ {
+  background-color: #e7e1d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  flex-wrap: wrap; }
+
+.main__logo__h {
+  height: 300px;
+  width: 300px;
+  padding-bottom: 50px;
+  border-radius: 400px; }
+
+.main__logo__m {
+  height: 300px;
+  width: 300px;
+  padding-bottom: 50px;
+  border-radius: 400px; }
+
+.section1 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-evenly; }
+
+.img__section__1 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  transition: transform 0.8s; }
+
+.img__section__1 img:hover {
+  transform: scale(1.1, 1.1); }
+
+.img2__section__1 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  transition: transform 0.8s; }
+
+.img2__section__1 img:hover {
+  transform: scale(1.1, 1.1); }
+
+.text__section_1 {
+  text-align: center; }
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  margin-right: 10px;
+  justify-content: space-evenly; }
+
+.vid__section__2 p {
+  font-size: 17px; }
+
+/*FOOTER*/
+.footerPag {
+  background-image: linear-gradient(to right, #214891, #6f94d8, #6c0aa5);
+  height: 75px;
+  font-family: "Grape Nuts", cursive; }
+
+.footer__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none; }
+
+.footer__list li {
+  transition: transform 0.5s; }
+
+.footer__list li:hover {
+  transform: scale(1.3, 1.3); }
