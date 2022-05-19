@@ -1,0 +1,3 @@
+en el index:
+agrege meta keywords y description,
+tambien agregue map, extend y mixin

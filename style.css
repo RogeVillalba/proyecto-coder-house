@@ -271,7 +271,7 @@ body{
     width: 200px;
     border: solid 1px;
     border-radius: 8px;
-    object-fit: con;
+    object-fit: cover;
 }
 .boton__h{
     width: fit-content;

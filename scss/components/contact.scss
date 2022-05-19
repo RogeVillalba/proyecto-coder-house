@@ -1,0 +1,30 @@
+/*CONTACTO*/
+.main__contact{
+    height: $main-contact;
+    padding-top: $pd-contact;
+}
+.input{
+
+    height: $imput-contact;
+}
+.form-label{
+    padding-bottom: $pb-form-label;
+    padding-left:$pl-form-label;
+}
+.form-control{
+    margin:$margin-form-control;
+    width:$width-form-control;
+}
+.form-control-date{
+    margin-top: $control-date;
+    
+}
+.form-check{
+    padding-bottom: $form-check;
+    
+}
+
+.form_button{
+    margin-bottom: $form-button;
+    
+}

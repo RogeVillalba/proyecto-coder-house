@@ -1,0 +1,85 @@
+.header__hombres{
+    background-image: linear-gradient(to right, rgb(80, 127, 213), rgb(158, 158, 158), rgb(33, 72, 145) );
+    height: 100px;
+    flex-wrap: wrap;
+}
+.header__titulo__hombres{
+    @extend %header-titulo-hm;
+
+}
+
+.header__titulo__hombres:hover{
+    transform: $hover-title ;
+}
+
+/*MAIN*/
+.logos__hombres{
+    display: $display-logos;
+    justify-content: $jc-logos;
+    
+}
+.main__logo__hombres{
+    @extend %main-logo-hm;
+  
+}
+.main__h{
+    @extend %main-h;
+}
+.buzos{
+    @extend %flex-ropa;
+}
+.buzos:hover{
+    transform: scale(1.1,1.1);
+}
+.buzos__hombres{
+    @extend %ropa;
+}
+.p__buzos__hombres{
+    @extend %titulo-ropa;
+}
+.buzos__img{
+    @extend %img-ropa;
+}
+.boton__h{
+    @extend %boton-comprar;
+}
+.boton__h:hover{
+    transform: scale(1.1,1.1);
+}
+.remeras{
+    @extend %flex-ropa;
+}
+.remeras:hover{
+    transform: scale(1.1,1.1);
+}   
+.remeras__hombres{
+    @extend %ropa;
+}
+.p__remeras__hombres{
+    @extend %titulo-ropa;
+}
+.remeras__img{
+    @extend %img-ropa;
+}
+.bermudas{
+    @extend %flex-ropa;
+}
+.bermudas:hover{
+    transform: scale(1.1,1.1);
+}
+.bermudas__hombres{
+    @extend %ropa;
+}
+.p__bermudas__hombres{
+    @extend %titulo-ropa;
+}
+.bermudas__img{
+    @extend %img-ropa;
+}
+/*FOOTER HOMBRES*/
+.footerPag__h{
+    background-image: linear-gradient(to right, rgb(80, 127, 213), rgb(158, 158, 158), rgb(33, 72, 145) );
+    height: $height-footer-h;
+    font-family:  $font-family;
+}
+

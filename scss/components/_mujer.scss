@@ -1,0 +1,89 @@
+/*HEADER MUJER*/
+.header__mujer{
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
+    height: $height-header-m; 
+}
+.header__titulo__mujer{
+    @extend %header-titulo-hm;
+}
+.header__titulo__mujer:hover{
+    transform: $hover-title ;
+}
+/*NAV*/
+.nav__submenu__mujer li{
+    list-style: $list-style-none;
+    padding: $padding;
+}
+.nav__submenu__mujer{
+    display: $display-none;
+    background-color: $bg-color;
+}
+
+.nav__menu__mujer--submenu a{
+    color: $color;
+    text-decoration: $td-none;
+}
+.nav__menu__mujer--submenu:hover .nav__submenu__mujer  {
+    display: block;
+}
+/*MAIN MUJER*/
+.main__m{
+    @extend %main-h;
+
+}
+.logos__mujer{
+    display: $display-logos;
+    justify-content: $jc-logos;
+}
+.main__logo__mujer{
+   @extend %main-logo-hm;
+
+}
+.buzos__m{
+    @extend %flex-ropa;
+    
+
+}
+.buzos__mujer{
+    @extend %ropa;
+}
+.p__buzos__mujer{
+    @extend %titulo-ropa;
+
+}
+.remeras__m{
+    @extend %flex-ropa;
+    
+    
+}
+.remeras__mujer{
+    @extend %ropa;
+    
+}
+.p__remeras__mujer{
+    @extend %titulo-ropa;
+}
+.bermudas__m{
+    @extend %flex-ropa;
+}
+.bermudas__mujer{
+    @extend %ropa;
+}
+.p__bermudas__mujer{
+    @extend %titulo-ropa;
+}
+.boton__m{
+    @extend %boton-comprar;
+    background-image: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(158, 82, 202) );
+
+}
+.boton__m:hover{
+    transform: scale(1.1,1.1);
+}
+/*FOOTER MUJER*/
+.footerPag__m{
+    background-image: $bg-color;
+    height: $height-footer-m;
+    font-family: $font-family;
+   
+}

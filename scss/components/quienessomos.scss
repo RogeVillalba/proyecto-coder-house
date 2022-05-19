@@ -1,0 +1,24 @@
+.main__empresa{
+    height: $main-qs;
+    background-image: $bg-image-qs;
+}
+.h1__qs{
+    padding-top: $p-top;     
+    font-family: $ff-qs;
+
+}
+.card img{
+    height: $card-img;
+ 
+}
+
+.card-text{
+    font-family: $ff-card;
+    font-size: $fs-card;
+}
+.row{
+   display: $row-flex;
+  justify-content:$jc-row;
+   margin: 0;
+   padding: 0;
+}
