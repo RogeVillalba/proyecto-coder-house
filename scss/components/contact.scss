@@ -7,13 +7,16 @@
 
     height: $imput-contact;
 }
+/*
 .form-label{
     padding-bottom: $pb-form-label;
     padding-left:$pl-form-label;
 }
+*/
 .form-control{
     margin:$margin-form-control;
     width:$width-form-control;
+    
 }
 .form-control-date{
     margin-top: $control-date;
@@ -21,10 +24,38 @@
 }
 .form-check{
     padding-bottom: $form-check;
-    
 }
 
 .form_button{
     margin-bottom: $form-button;
     
+}
+.button_submit{
+    bottom: 150px;
+}
+.form-control-date{
+  
+    margin: 10px;
+}
+.button_submit{
+    margin-bottom: 80px;
+}
+@media only screen and (max-width: 760px){
+    .main__contact{
+        padding-top: 0px;
+        height: 430px;
+    
+    }
+    .form-label{
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+    .form-control-date{
+        margin: auto;
+    }
+    .button_submit{
+        margin-bottom: 90px;
+    }
+
+   
 }

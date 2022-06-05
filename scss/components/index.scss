@@ -19,6 +19,12 @@
     text-decoration: $td-anchor-none;
     }
 
+    .barra-nav{
+        background-image: linear-gradient(to right,rgb(58, 93, 158), rgb(111, 148, 216), rgb(129, 39, 180));
+
+    }
+    
+
 .main__{
     background-color: $color-main;
     display: $display-flex ;
@@ -51,21 +57,25 @@
 }
 
         .img__section__1 img{
-    height: $heigh-img-section;
+    height: $height-img-section;
     width: $width-img-section;
     border-radius: $b-radius-img;
     transition: $transition-img;
+    max-width: 100%;
+    height: auto;
 }
 
-            .img__section__1 img:hover{
+        .img__section__1 img:hover{
     transform: $hover-img;
 }
 
-                .img2__section__1 img{
-    height: $heigh-img-section;
+         .img2__section__1 img{
+    height: $height-img-section;
     width: $width-img-section;
     border-radius: $b-radius-img;
     transition:  $transition-img;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -85,16 +95,28 @@
     margin-right: $mr-section2;  
     justify-content: $jc-section2;
 }
-    
+        .vid__section__2 iframe{
+            height: 300px;
+            width: 500px;            
+        }
         .vid__section__2 p{
-        font-size:map-get($tamanio-tipografia, texto-index);  
+         font-size:map-get($tamanio-tipografia, texto-index);
+         max-width: 100%;
+         height: auto;
                 }
+
+        .location iframe{
+            max-width: 100%;
+            height: 300px;
+           
+        }        
             
 /*FOOTER*/
 .footerPag{
     background-image: linear-gradient(to right,rgb(33, 72, 145), rgb(111, 148, 216), rgb(108, 10, 165));
     height: $footer-heigh;
     font-family: $font-f;
+    
 }
    
 
@@ -102,10 +124,13 @@
     display: $display-flex;
     justify-content: $footer-list-jc;
     list-style: $footer-list-style;
+    
+    
 }
 
         .footer__list li {
     transition: $footer-list-transition;
+    
 }
 
 
@@ -113,4 +138,41 @@
     transform: $footer-list-hover;
             }
     
+@media only screen and (max-width: 768px){
+    .img__section__1 img{
+        height: $height-mobile;
+        width: $height-mobile;
+        
+    }
+    .img2__section__1 img{
+        height:  $height-mobile;
+        width:  $height-mobile;
+    
+    }
+    .section2{
+            display: flex;
+            flex-direction: column;
+            padding-top: $pt-section2;
+            margin-right: $mr-section2;  
+            justify-content: center ;
+    }
+    .vid__section__2{
+        margin: auto;
+        width: 300px;
+        padding-bottom: 30px;
+    }                
+    .vid__section__2 p{
+                        
+    font-size:map-get($tamanio-tipografia, texto-index);
+    max-width: 100%;
+    height: auto;
+    
+    }
+                
+    .location{
+    margin: auto;
+    width: 300px;      
+    padding-bottom: 5px;
+    }        
+}            
 

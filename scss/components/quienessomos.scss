@@ -1,6 +1,8 @@
-.main__empresa{
+
+.main__quienessomos{
     height: $main-qs;
     background-image: $bg-image-qs;
+
 }
 .h1__qs{
     padding-top: $p-top;     
@@ -21,4 +23,24 @@
   justify-content:$jc-row;
    margin: 0;
    padding: 0;
+}
+
+
+@media only screen and (max-width: 760px){
+    .h1__qs{
+        padding-top: 20px;     
+    }
+    .card img{
+        height: 70px;
+        width: 60px;
+     
+    }
+    .card-img-top{
+        margin: auto;
+    }
+    .main__quienessomos{
+        height: 650px;
+      
+    }
+    
 }

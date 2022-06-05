@@ -12,6 +12,7 @@
     transform: $hover-title ;
 }
 
+
 /*MAIN*/
 .logos__hombres{
     display: $display-logos;
@@ -83,3 +84,40 @@
     font-family:  $font-family;
 }
 
+
+@media only screen and (max-width: 760px){
+    .header__hombres{
+        height: 50px;
+    }
+    
+    
+   
+    .header__titulo__hombres{
+        font-size: 40px;
+        height: 35px;
+        font-family: 'Grape Nuts', cursive;   
+        color: black;
+        flex-wrap: wrap;
+        transition: transform .5s;
+    }
+    .barra-nav-hombres{
+        background-image: linear-gradient(to right, rgb(158, 158, 158), rgb(178, 189, 206), rgb(158, 158, 158) );
+      
+    }
+    .logos__hombres{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+
+    .main__logo__hombres{
+    height: 150px;
+    width: 150px;
+      
+    }
+    .footer__list{
+        padding-left: 0;
+    }
+   
+    
+}

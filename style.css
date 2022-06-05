@@ -208,21 +208,14 @@ body{
 }
 .header__titulo__hombres{
     font-size: 80px;
-    font-family: 'Grape Nuts', cursive;   
-    color: black;
-    flex-wrap: wrap;
-    transition: transform .5s;
+ 
 }
 
-.header__titulo__hombres:hover{
-    transform: scale(1.1);
-}
 /*MAIN HOMBRES*/
 
 .logos__hombres{
     display: flex;
     justify-content: space-around;
-    
 
 }
 .main__logo__hombres{
@@ -514,15 +507,13 @@ body{
 }
 
 /*QUIENES SOMOS*/
-.main__empresa{
+.main__quienessomos{
     height: 600px;
     background-image: linear-gradient(to right,rgb(145, 145, 145),rgb(131, 166, 231), rgb(210, 210, 210), rgb(197, 120, 241), rgb(145, 144, 144));
 }
 .h1__qs{
     padding-top: 80px;     
-    font-family: 'ZCOOL KuaiLe', cursive;
-   
-   
+    font-family: 'ZCOOL KuaiLe', cursive; 
 }
 .card img{
     height: 200px;

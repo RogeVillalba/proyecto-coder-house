@@ -10,9 +10,13 @@
     transform: $hover-title ;
 }
 /*NAV*/
+.barra-nav-mujer{
+    padding-left: 500px;    
+}
 .nav__submenu__mujer li{
     list-style: $list-style-none;
     padding: $padding;
+    position: relative;
 }
 .nav__submenu__mujer{
     display: $display-none;
@@ -41,11 +45,11 @@
 }
 .buzos__m{
     @extend %flex-ropa;
-    
 
 }
 .buzos__mujer{
     @extend %ropa;
+   
 }
 .p__buzos__mujer{
     @extend %titulo-ropa;
@@ -86,4 +90,33 @@
     height: $height-footer-m;
     font-family: $font-family;
    
+}
+
+@media only screen and (max-width: 760px){
+    
+    .header__mujer{
+        height: 55px;
+    }
+    .header__titulo__mujer{
+        font-size: 40px;
+    }
+    
+    .barra-nav-mujer{
+        background-image: linear-gradient(to right, rgb(190, 184, 184), rgb(222, 203, 229), rgb(190, 190, 190) );
+        padding: 0; 
+        margin: 0;
+        
+    }
+   
+    .logos__mujer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main__logo__mujer{
+        height: 150px;
+        width: 150px;
+       
+    }
+
+    
 }

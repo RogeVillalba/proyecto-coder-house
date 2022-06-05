@@ -21,26 +21,31 @@ $main-logos-pb: 50px;
 $display-flex: flex;
 $logos-jc: space-evenly;
 $flex-wrap: wrap;
+/*section1*/
 $section1-pd: 50px;
 $section1-jc: space-evenly;
-$heigh-img-section: 400px;
+$height-img-section: 400px;
 $width-img-section: 400px;
+$height-mobile: 200px;
 $b-radius-img: 20px;
 $transition-img: transform .8s;
 $hover-img: scale(1.1,1.1);
 $text-section-1: center;
 $flex-dir-r: row;
+/*section2*/
 $pt-section2: 80px;
 $mr-section2: 10px;
 $jc-section2: space-evenly;
 $fs-p-video-section2: 17px;
 /*FOOTER*/
-$footer-heigh: 75px;
+$footer-heigh: 85px;
 $font-f: 'Grape Nuts', cursive;
 $footer-list-jc: space-evenly;
 $footer-list-style: none;
 $footer-list-transition: transform .5s;
 $footer-list-hover: scale(1.3,1.3);
+
+
 
 /*HOMBRES HEADER*/
 $fs-hombres: 80px;
@@ -58,7 +63,7 @@ $jc-logos: space-around;
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;  
-};
+}
 %main-h{
     background-color: rgb(226, 220, 213);
     display: flex;
@@ -79,7 +84,7 @@ $jc-logos: space-around;
     justify-content: space-around;
     padding-top: 0px;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    
 }
 %titulo-ropa{
     font-size: 25px;
@@ -87,11 +92,13 @@ $jc-logos: space-around;
     text-align: center;
 }
 %img-ropa{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border: solid 1px;
     border-radius: 8px;
 }
+
+
 %boton-comprar{
     width: fit-content;
     height: 35px;
@@ -105,7 +112,7 @@ $jc-logos: space-around;
     transition: .5s;
 }
 /*FOOTER HOMBRES*/
-    $height-footer-h: 75px;
+    $height-footer-h: 85px;
     $font-family: 'Grape Nuts', cursive;
 
 /*HEADER MUJER*/
@@ -135,7 +142,7 @@ $td-none: none;
 $bg-color: linear-gradient(to right, pink, rgb(159, 156, 156), rgb(108, 10, 165) );
 $height-footer-m: 75px;
 .footerPag__m{
-    height: 75px;
+    height: 85px;
     font-family: 'Grape Nuts', cursive;
    
 }
@@ -143,6 +150,7 @@ $height-footer-m: 75px;
 /*QUIENES SOMOS*/
 $main-qs: 600px;
 $bg-image-qs: linear-gradient(to right,rgb(145, 145, 145),rgb(131, 166, 231), rgb(210, 210, 210), rgb(197, 120, 241), rgb(145, 144, 144));
+$bg-image-qs-mobile: rgb(231, 225, 217);
 $p-top: 80px;
 $ff-qs: 'ZCOOL KuaiLe', cursive;
 $card-img: 200px;
@@ -181,9 +189,13 @@ $tamanio-tipografia:(
     flex-wrap: wrap;
 };
 
+
 @mixin flex-logos ($justify, $wrap){
     display: flex;
     justify-content: $justify;
     padding-top: 100px;
     flex-wrap: $wrap;
 };
+
+
+  
